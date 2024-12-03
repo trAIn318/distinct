@@ -8,3 +8,7 @@
 #openai==1.55.3
 #request
 #streamlit-option-menu==0.4.0
+gspread==5.7.2
+pandas==1.4.3
+streamlit>=1.8.1
+oauth2client>=4.1.0
