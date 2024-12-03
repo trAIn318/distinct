@@ -4,6 +4,5 @@ streamlit
 streamlit_extras
 oauth2client
 pillow
-openai
 request
 streamlit-option-menu
