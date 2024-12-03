@@ -2,7 +2,7 @@ import streamlit as st
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
 
-directorio_local ='D:\Master\projects\distinct\.streamlit/'
+directorio_local ='.streamlit/'
 
  #Authorize the API
 scope = [
