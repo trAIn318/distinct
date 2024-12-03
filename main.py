@@ -26,13 +26,14 @@ about_page =st.Page(
     page="pages/about.py",
     title="Home",
     #icon="img/person.png",
-    icon=":material/home:"
+    icon=":material/home:",
+    default=True,
 )
 admin_page=st.Page(
     page="pages/admin.py",
     title="Admin",
-    icon=":material/admin_meds:",
-    default=True,
+    icon=":material/admin_meds:"
+    
 )
 dash_page=st.Page(
     page="pages/dash.py",
