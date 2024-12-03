@@ -73,9 +73,6 @@ chatbot_page =st.Page(
 )
 
 
-#-----NAVIGATION SETUP [WITHOUT SECTIONS]----
-
-#pg=st.navigation(pages=[admin_page,dash_page,data_page,eval_page,pay_page,train_page])
 pg = st.navigation(
     {
         "Home": [about_page],
@@ -84,9 +81,9 @@ pg = st.navigation(
     }
 )
 
-#st.sidebar.image(img, width=150)
 
 #----- RUN NAvIGATION---------
+
 pg.run()
 
 def main(mess):
