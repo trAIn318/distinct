@@ -9,7 +9,7 @@ import streamlit as st
 from PIL import Image # import Image from pillow to open images
 from forms.contact import contact_form
 
-img=Image.open("distintc/img/brandmark-design.png")
+img=Image.open("img/brandmark-design.png")
 st.logo(img)
 
 @st.dialog("Contact Me")
