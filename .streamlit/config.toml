@@ -1,28 +1,4 @@
-[theme]
-#primary accent color for interactive elements.
-primaryColor = "#0C090A"
 
-#Background color for the main content area.
-backgroundColor="#ffffff"
-
-#Background color for the sidebar and mos interactiva widges
-secondaryBackgroundColor="#FCF2F6"
-
-#Color used for almost all text
-textColor="#0C090A"
-
-[client]
-toolbarMode="minimal"
-showSidebarNavigation = false # para que no deje navegar si no se ha logeado
-#showSidebarNavigation = true # para que no deje navegar si no se ha logeado
-
-[secrets]
-# conString='postgresql+psycopg2://[usuario]:[password]@[servidor]/baseDeDatos'
-conString='postgresql+psycopg2://postgres.kjvccmkdhmhpyfnrbwnv:Calipachanguero65$@aws-0-us-east-1.pooler.supabase.com:6543/postgres'
-OPENAI_API_KEY="sx-JP43yJXKFJnCesSc4PiJT3B1bkFJVuhviMPsJIRsMnJcpAT5"
-#user=postgres password=[YOUR-PASSWORD] host=db.kjvccmkdhmhpyfnrbwnv.supabase.co port=5432 dbname=postgres
-#postgresql://postgres:[YOUR-PASSWORD]@db.kjvccmkdhmhpyfnrbwnv.supabase.co:5432/postgres
-#postgresql://postgres.kjvccmkdhmhpyfnrbwnv:[YOUR-PASSWORD]@aws-0-us-east-1.pooler.supabase.com:6543/postgres
 
 
 
