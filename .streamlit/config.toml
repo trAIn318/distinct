@@ -1,3 +1,42 @@
+[theme]
+#primary accent color for interactive elements.
+primaryColor = "#0C090A"
+
+#Background color for the main content area.
+backgroundColor="#ffffff"
+
+#Background color for the sidebar and mos interactiva widges
+secondaryBackgroundColor="#FCF2F6"
+
+#Color used for almost all text
+textColor="#0C090A"
+
+[client]
+toolbarMode="minimal"
+showSidebarNavigation = false # para que no deje navegar si no se ha logeado
+#showSidebarNavigation = true # para que no deje navegar si no se ha logeado
+
+[secrets]
+
+# conString='postgresql+psycopg2://[usuario]:[password]@[servidor]/baseDeDatos'
+conString='postgresql+psycopg2://postgres.kjvccmkdhmhpyfnrbwnv:Calipachanguero65$@aws-0-us-east-1.pooler.supabase.com:6543/postgres'
+OPENAI_API_KEY="sx-JP43yJXKFJnCesSc4PiJT3B1bkFJVuhviMPsJIRsMnJcpAT5"
+
+# .streamlit/secrets.toml
+
+[connections.gsheets]
+spreadsheet = "https://docs.google.com/spreadsheets/d/1kVG1kOqD3Swdz36gKACToKvIj0rbZCEDrwe7-vFevnI/edit?gid=0#gid=0"
+type= "service_account"
+project_id= "projectoexplectoquetro"
+private_key_id= "a214190c0f0df8dc19c17d431bd2cb07cf12a88c"
+private_key= "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC57tBkyGI2wn5j\ntGlcxNelCUh9S1rzkjrmZ70wUwS8Oayz1f5PmeQh9ASLsjbhI3KuDQ9xUeujpzR3\nfvkkc3dkhYK/IJAmiaWYwJvu0zkjAQ5Lciw4fdBRJ9dH+UNqABfFYM7rVAyeOo5H\n5XRNnX+s8qGvmSvvv84Av3oXq3heFUbpn00UXjSpVhWsEPulyKFNsA23BswvmDZ4\nTbX7c6WMVHXEJPwA0QjywCbeIZJU8EV/tXgHmznZ7DfHuVbsu6tPOSJ8dTYpSzqD\nMa2t3opCOS4gNH4HO3EVUeuHkpXkGbEbJa/YmjfQ0aWqfg711FMSwX6nAL3jM3K9\nDUe3zxeVAgMBAAECggEACHvJRePvuURoDGgRq6IunbDd/huHV5g7OEKQ+wi6rVTr\nWJxBuYORyWvPHkmgH+ckZyUg6IB+oi2xoucn+n4LO0qtM8fKU/vRUrYtFzlLgNme\nO5qGwoAZFm7dL4NDzG0bKI4ZetrPpZOR5N1nEFiImA1NC8xPGSYVAes6qKRR/mbh\ntkRJpcTJWImeByW+1I1AbLNtMcuXFdisjg/5U5ku2n0b1iOTmiiTg4GvR6yvW1Lh\ngnEiJuLfMt1d3OU+4+WanB5II77bUPLk4fynh3NAO17cclLEcALAZcYK7aM2UIiA\n0OTyFmRe2iPR6cz8Pg9Y7JQ5FnYH41VzNlLo/FczGQKBgQDfwujJT5I5tM22vwQf\nWfV4cfwVuttWoIZTJgZnjOZ5OheCTPoRVXOclsfXr0231GA5ZwdnuzCittBoEJ+e\nbskYBuCCOnvyxFGNcEzejoaVPc2jEuZdcxLkBQCXU4QF9EN5yz8TVdUYTa8bfBpK\nwNmKcMpucfD28ZCWxa/lbfvUrQKBgQDUuKjICgT3ZV81GnyQazy9+epMVhSRfr0Z\nISKRLmf6oWOkGpCUx+avyu1OGnn1bSFCPU84K6AGsK7k3DmmlkMBvsyQlqTS1PVo\n7+sUKMIfCspJvGfEWe0k+rS06FfDpYqiSuQ8ubGEvz2skLkpCDfu4s2iaoQSbA2c\n6UrofAVDiQKBgA6Cu0niyR7I5NZHCONnmA2Zhrl6BqNVgaB+xMeOUZvm8oNWrpjV\nK8wp0wffrHCRazQNxGMrtnm21UkKWu+RS6UtPP31APi7VnaPo8yC/aNMALvki9/f\niIgU8vbdSaCBOKb7UTnVxR3wW7yyjZnva6wYqGgFJ5U8ER5V75Q3T695AoGAXoIw\nUrfI3xWFyDUdVJigYxMu2n2AI+g4IXsMPY5tmfesKlO3GrL5te6loga3WqgCl8hf\ncuhG79H90iZZ4r5txM+9WRvk3NrKsbWuLsWxAVOs7jerrpv5dW2BbcKwg3b/8fzu\nDGDAEudYglvGOAmzuAnCLL/AL+Mb5TPtGP9I42kCgYAIMNC/FNx5dCKMWdbR3oV1\nX7WBkM8pQifDUpe1WWYKndynkUzxS2PUnLE7N7PSCUezus/laU5XFSzSaudc8N84\nK3s3aoKZ/UZiQPC/PzJiwKq10kYYkT31HIbLb6anfKq2vcM+xUPllk6Gqgb4BA0F\npYFhrhoDQWPy5YP2Zlebjg==\n-----END PRIVATE KEY-----\n"
+client_email= "servicioproyectoeplectoquetro@projectoexplectoquetro.iam.gserviceaccount.com"
+client_id= "109269410798389870613"
+auth_uri= "https://accounts.google.com/o/oauth2/auth"
+token_uri= "https://oauth2.googleapis.com/token"
+auth_provider_x509_cert_url= "https://www.googleapis.com/oauth2/v1/certs"
+client_x509_cert_url= "https://www.googleapis.com/robot/v1/metadata/x509/servicioproyectoeplectoquetro%40projectoexplectoquetro.iam.gserviceaccount.com"
+
 
 
 
