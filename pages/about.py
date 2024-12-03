@@ -46,11 +46,14 @@ with col1:
         col4.image("./img/bartender.jpg")
         col4.markdown("###### Bartender Course by [Distinct](https://youtu.be/IWs2NZpQPQE)")
         col4.write("""This is a course of real world bartending experience, from real hospitality professionals across the industry. """)
-
+        col4.markdown("___________________")
+        col4.markdown("##### Our Partners")
+        col4.image("./img/alani.png")
+        col4.markdown("###### Alani [Distinct](https://alani.ai/login)")
     with col5:
 
         col5.image("./img/hotelbanquet.jpg")
-        col5.markdown("###### Hotel Banquetes Course by [Distinct](https://youtu.be/8IQ_DoFkDws?si=lpA7X-DOg6sgsbRm)")
+        col5.markdown("###### Hotel Banquetes Course by [Distinct](https://youtu.be/8IQ_DoFkDws?si=zmScdscieLeNZIKJ)")
         col5.write("""This comprehensive online course will equip you with the skills and knowledge necessary to plan and execute successful banquets. From menu planning and event design to staff management and client relations, you'll learn everything you need to know to create unforgettable dining experiences.""")
     with col6:
 
